@@ -81,4 +81,5 @@ public class DashboardServlet extends HttpServlet {
         // OPEN STUDENT DASHBOARD JSP
         request.getRequestDispatcher("/WEB-INF/views/user/dashboard.jsp" ).forward(request, response);
     }
+
 }
